@@ -1,7 +1,7 @@
 # Real-Time Chat Application
 
 A full-stack real-time chat application built using MERN Stack (MongoDB, Express, React, Node.js) with Socket.IO for real-time communication and JWT authentication for secure user access.
-
+![Miniature](https://user-images.githubusercontent.com/43630417/167732465-f02c0dea-48db-4e23-ab26-90ca69115251.png)
 ## Features
 - 🔒 Secure Login & Signup with JWT-based authentication
 - 💬 Real-time Messaging with Socket.IO
@@ -14,37 +14,37 @@ A full-stack real-time chat application built using MERN Stack (MongoDB, Express
 
 ## How to Setup and Run Locally
 
- # 1. Clone the Repository
+ ### 1. Clone the Repository
 
   -git clone https://github.com/your-username/chat-app.git
   -cd chat-app 
 
-# 2. Setup Backend
+### 2. Setup Backend
 
 Follow these steps to configure and run the backend server:
 
 1. Navigate to the `backend` folder and install dependencies:
-    cd backend
-    npm install
+   ```cd backend
+    npm install``
  
 
 2. Create a `.env` file in the `backend/` directory with the following content:
 
-    ini
+   ``` ini
     PORT=5000
     MONGO_URI=your_mongodb_connection_string
     JWT_SECRET=your_secret_key
-    
+    ```
 
 3. Start the backend server:
-    npm start
+  ```  npm start```
 
 
 > ⚠️ Ensure MongoDB is running locally or provide a valid MongoDB Atlas URI in `MONGO_URI`.
 
-# 3. Setup Frontend
-cd ../frontend
+### 3. Setup Frontend
+```cd ../frontend
 npm install
-npm start
+npm start```
 
 
