@@ -2,7 +2,8 @@
 
 A full-stack real-time chat application built using MERN Stack (MongoDB, Express, React, Node.js) with Socket.IO for real-time communication and JWT authentication for secure user access.
 ### sign up page 
-![screenshot]("D:\my projects\chat-app\landing page.png")
+![Screenshot](./frontend/assets/landing page)
+
 
 ## Features
 - 🔒 Secure Login & Signup with JWT-based authentication
