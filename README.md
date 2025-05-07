@@ -14,13 +14,12 @@ A full-stack real-time chat application built using MERN Stack (MongoDB, Express
 
 ## How to Setup and Run Locally
 
-### 1. Clone the Repository
+ # 1. Clone the Repository
 ```bash
   -git clone https://github.com/your-username/chat-app.git
   -cd chat-app ```
 
-
-### **2. Setup Backend**
+# 2. Setup Backend
 
 Follow these steps to configure and run the backend server:
 
@@ -47,7 +46,7 @@ Follow these steps to configure and run the backend server:
 
 > ⚠️ Ensure MongoDB is running locally or provide a valid MongoDB Atlas URI in `MONGO_URI`.
 
-### **3. Setup Frontend**
+# 3. Setup Frontend
 ```bash
 cd ../frontend
 npm install
