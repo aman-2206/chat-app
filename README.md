@@ -17,8 +17,12 @@ A full-stack real-time chat application built using MERN Stack (MongoDB, Express
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/chat-app.git
-cd chat-app 
-
+cd chat-app ```
+### 2. Setup Backend
+```
+cd backend
+npm install
+```
 
 
 
