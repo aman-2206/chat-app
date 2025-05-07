@@ -47,4 +47,10 @@ Follow these steps to configure and run the backend server:
 
 > ⚠️ Ensure MongoDB is running locally or provide a valid MongoDB Atlas URI in `MONGO_URI`.
 
+### **3. Setup Frontend**
+```bash
+cd ../frontend
+npm install
+npm start
+```
 
