@@ -28,20 +28,20 @@ A full-stack real-time chat application built using MERN Stack (MongoDB, Express
 Follow these steps to configure and run the backend server:
 
 1. Navigate to the `backend` folder and install dependencies:
-   ``cd backend
+   ```cd backend
     npm install
  
 
 2. Create a `.env` file in the `backend/` directory with the following content:
 
-   `` ini
+   ``` ini
     PORT=5000
     MONGO_URI=your_mongodb_connection_string
     JWT_SECRET=your_secret_key
     
 
 3. Start the backend server:
-  ``npm start
+ ```npm start
 
 
 > ⚠️ Ensure MongoDB is running locally or provide a valid MongoDB Atlas URI in `MONGO_URI`.
